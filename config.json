@@ -1,0 +1,13 @@
+{
+    "FileDestinationPathWindows": {
+        "pdf": "Documents",
+        "mp4": "Videos",
+        "py" : "PythonScripts"
+    },
+    "FileDestinationPathLinux": {
+        "pdf": "Documents",
+        "mp4": "Videos",
+        "py" : "PythonScripts" 
+    },
+    "SortingDirectory": "Downloads"
+}
