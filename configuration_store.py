@@ -1,11 +1,12 @@
 import json
 
 """
-Initializes varibles that would be different for different systems and the destination paths for the different file types.
+Initializes variables that would be different for different systems and the destination paths for the different file types.
 """
 class Config:
 
     def __init__(self, system_name):
+        self.system_name = system_name
         with open("config.json") as f:
             data = json.load(f)
             self.sorting_directory = data.get("SortingDirectory")
