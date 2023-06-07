@@ -2,12 +2,20 @@
     "FileDestinationPathWindows": {
         "pdf": "Documents",
         "mp4": "Videos",
-        "py" : "PythonScripts"
+        "py" : "PythonScripts",
+        "jpg": "Pictures",
+        "png": "Pictures",
+        "gif": "Pictures",
+        "mp3": "Music"
     },
     "FileDestinationPathLinux": {
         "pdf": "Documents",
         "mp4": "Videos",
-        "py" : "PythonScripts" 
+        "py" : "PythonScripts",
+        "jpg": "Pictures",
+        "png": "Pictures",
+        "gif": "Pictures",
+        "mp3": "Music"
     },
     "SortingDirectory": "Downloads"
 }
